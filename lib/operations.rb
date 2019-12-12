@@ -1,7 +1,8 @@
 def unsafe?(speed)
   puts speed > 60
   return true
-  elsif < 30
+  elsif < 40
+  reutn false
 
 end
 
