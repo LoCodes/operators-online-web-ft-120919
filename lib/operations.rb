@@ -1,5 +1,6 @@
 def unsafe?(speed)
-  puts true 
+  puts speed > 60
+  return not_safe
 
 end
 
