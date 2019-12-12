@@ -1,19 +1,16 @@
 def unsafe?(speed)
-  if speed > 60
-  :true
-  
-  elsif < 40
-  :false
+  if speed > 60 
+    true
+  elsif speed < 40
+    true
   else
-    :true
-  
+    false
   end
 end
-  
+
 def not_safe?(speed)
-	speed ? < 40 : >60
+  speed < 40 || speed > 60 ? true : false
 end
 
-	
 
 
