@@ -3,11 +3,11 @@ def unsafe?(speed)
   return false
   elsif < 40
   return false
-
+  end
 end
-
+  
 def not_safe?(speed)
-	puts < 30
+	if speed < 30
 	return false
 end
 	
