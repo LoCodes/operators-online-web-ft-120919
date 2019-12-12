@@ -1,9 +1,9 @@
 def unsafe?(speed)
   if speed > 60
-  return true
+  :true
   
   else < 40
-  return false
+  :false
   
   elsif
   
